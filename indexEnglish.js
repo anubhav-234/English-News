@@ -10,7 +10,7 @@ let newsAccordion=document.getElementById("newsAccordion");
 
 let xhr=new XMLHttpRequest();
 
-xhr.open('GET',`https://newsapi.org/v2/top-headlines?country=in&apiKey=${apiKey}`,true);
+xhr.open('GET',`https://newsapi.org/v2/top-headlines?sources=google-news-in&apiKey=89dc0b5459324b669e74b40f944e87db`,true);
 
 
 xhr.onload=function(){
